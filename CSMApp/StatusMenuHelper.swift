@@ -1,5 +1,5 @@
 //
-//  StatusMenuController.swift
+//  StatusMenuHelper.swift
 //  CatalystStatusMenu
 //
 //  Created by Adam Overholtzer on 8/23/21.
@@ -8,7 +8,7 @@
 import SwiftUI
 import ServiceManagement
 
-class StatusMenuController: ObservableObject {
+class StatusMenuHelper: ObservableObject {
     
     @AppStorage("com.overdesigned.CatalystStatusMenu.isEnabled")
     var isEnabled = false {

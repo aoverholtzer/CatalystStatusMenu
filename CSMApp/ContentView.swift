@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     #if targetEnvironment(macCatalyst)
-    @StateObject var statusMenuController = StatusMenuController()
+    @StateObject var statusMenuHelper = StatusMenuHelper()
     #endif
     
     var body: some View {
@@ -18,7 +18,7 @@ struct ContentView: View {
             Text("Hello world!")
             
             #if targetEnvironment(macCatalyst)
-            Toggle("Enable Status Menu", isOn: $statusMenuController.isEnabled)
+            Toggle("Enable Status Menu", isOn: $statusMenuHelper.isEnabled)
             #endif
         }
     }

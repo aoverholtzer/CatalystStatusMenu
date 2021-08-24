@@ -33,7 +33,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.animates = false
     }
     
-    @objc func togglePopover(sender: AnyObject) {
+    @objc func togglePopover(sender: Any?) {
         guard let statusButton = statusItem.button else { return }
         
         if let popover = popover, popover.isShown {

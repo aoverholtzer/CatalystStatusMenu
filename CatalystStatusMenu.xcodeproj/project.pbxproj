@@ -10,7 +10,7 @@
 		66C54C6126D48382001528F0 /* CatalystStatusMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6026D48382001528F0 /* CatalystStatusMenuApp.swift */; platformFilter = maccatalyst; };
 		66C54C6326D48382001528F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6226D48382001528F0 /* ContentView.swift */; platformFilter = maccatalyst; };
 		66C54C6526D48383001528F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C54C6426D48383001528F0 /* Assets.xcassets */; };
-		66C54C7026D483D4001528F0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6F26D483D4001528F0 /* StatusMenuController.swift */; };
+		66C54C7026D483D4001528F0 /* StatusMenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6F26D483D4001528F0 /* StatusMenuHelper.swift */; };
 		66C54C7A26D486CE001528F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C7926D486CE001528F0 /* AppDelegate.swift */; };
 		66C54C7C26D486CE001528F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C7B26D486CE001528F0 /* ContentView.swift */; };
 		66C54C7E26D486CF001528F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C54C7D26D486CF001528F0 /* Assets.xcassets */; };
@@ -48,7 +48,7 @@
 		66C54C6226D48382001528F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66C54C6426D48383001528F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C54C6926D48383001528F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66C54C6F26D483D4001528F0 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		66C54C6F26D483D4001528F0 /* StatusMenuHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuHelper.swift; sourceTree = "<group>"; };
 		66C54C7126D4840B001528F0 /* CatalystStatusMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CatalystStatusMenu.entitlements; sourceTree = "<group>"; };
 		66C54C7226D48492001528F0 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		66C54C7726D486CE001528F0 /* CSMStatusMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSMStatusMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +102,7 @@
 				66C54C7126D4840B001528F0 /* CatalystStatusMenu.entitlements */,
 				66C54C6026D48382001528F0 /* CatalystStatusMenuApp.swift */,
 				66C54C6226D48382001528F0 /* ContentView.swift */,
-				66C54C6F26D483D4001528F0 /* StatusMenuController.swift */,
+				66C54C6F26D483D4001528F0 /* StatusMenuHelper.swift */,
 				66C54C7226D48492001528F0 /* BridgingHeader.h */,
 				66C54C6426D48383001528F0 /* Assets.xcassets */,
 				66C54C6926D48383001528F0 /* Info.plist */,
@@ -223,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66C54C7026D483D4001528F0 /* StatusMenuController.swift in Sources */,
+				66C54C7026D483D4001528F0 /* StatusMenuHelper.swift in Sources */,
 				66C54C6326D48382001528F0 /* ContentView.swift in Sources */,
 				66C54C6126D48382001528F0 /* CatalystStatusMenuApp.swift in Sources */,
 			);
