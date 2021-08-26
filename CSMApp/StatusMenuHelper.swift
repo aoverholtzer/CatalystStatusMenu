@@ -14,9 +14,9 @@ class StatusMenuHelper: ObservableObject {
     var isEnabled = false {
         didSet {
             if setStatusMenuEnabled(isEnabled) {
-                // call to SMLoginItemSetEnabled worked
+                // success!
             } else {
-                // call to SMLoginItemSetEnabled failed, so reset to FALSE
+                // SMLoginItemSetEnabled failed
                 isEnabled = false
             }
             objectWillChange.send()
@@ -24,6 +24,7 @@ class StatusMenuHelper: ObservableObject {
     }
     
     private func setStatusMenuEnabled(_ isEnabled: Bool) -> Bool {
-        return SMLoginItemSetEnabled("com.overdesigned.CSMStatusMenu" as CFString, isEnabled)
+        let bundleId = "com.overdesigned.CSMStatusMenu" as CFString
+        return SMLoginItemSetEnabled(bundleId, isEnabled)
     }
 }

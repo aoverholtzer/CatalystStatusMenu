@@ -18,7 +18,7 @@ struct ContentView: View {
             #if targetEnvironment(macCatalyst)
             Toggle("Enable Status Menu", isOn: $statusMenuHelper.isEnabled)
             #else
-            Text("Hello iPhone!")
+            Text("This is an iPhone/iPad.")
             #endif
         }
     }
