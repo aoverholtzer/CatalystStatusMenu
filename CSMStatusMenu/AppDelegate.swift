@@ -39,7 +39,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let popover = popover, popover.isShown {
             popover.performClose(sender)
         } else {
-            popover.show(relativeTo: statusButton.bounds, of: statusButton, preferredEdge: NSRectEdge.maxY)
+            popover.show(relativeTo: statusButton.bounds,
+                         of: statusButton,
+                         preferredEdge: NSRectEdge.maxY)
         }
     }
 

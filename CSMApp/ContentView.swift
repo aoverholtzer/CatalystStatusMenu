@@ -15,10 +15,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Hello world!")
-            
             #if targetEnvironment(macCatalyst)
             Toggle("Enable Status Menu", isOn: $statusMenuHelper.isEnabled)
+            #else
+            Text("Hello iPhone!")
             #endif
         }
     }
