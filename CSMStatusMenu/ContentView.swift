@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack(alignment: .leading, spacing: 0) {
+            TextField("Title", text: .constant("Title"))
+                .textFieldStyle(.roundedBorder)
+                .padding(.vertical)
+            
+            ForEach(0..<6) { _ in
+                Divider()
+                RowView()
+            }
+        }
+        .padding(.horizontal)
+        .frame(width: 300)
     }
 }
 
@@ -18,5 +29,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewLayout(.sizeThatFits)
     }
 }

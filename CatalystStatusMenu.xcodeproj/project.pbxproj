@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6638034F2799CBC0009022DA /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6638034E2799CBC0009022DA /* RowView.swift */; };
 		66C54C6126D48382001528F0 /* CatalystStatusMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6026D48382001528F0 /* CatalystStatusMenuApp.swift */; platformFilter = maccatalyst; };
 		66C54C6326D48382001528F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54C6226D48382001528F0 /* ContentView.swift */; platformFilter = maccatalyst; };
 		66C54C6526D48383001528F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C54C6426D48383001528F0 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6638034E2799CBC0009022DA /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		66C54C5D26D48382001528F0 /* CSMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C54C6026D48382001528F0 /* CatalystStatusMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalystStatusMenuApp.swift; sourceTree = "<group>"; };
 		66C54C6226D48382001528F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				66C54C7926D486CE001528F0 /* AppDelegate.swift */,
 				66C54C7B26D486CE001528F0 /* ContentView.swift */,
+				6638034E2799CBC0009022DA /* RowView.swift */,
 				66C54C7D26D486CF001528F0 /* Assets.xcassets */,
 				66C54C9226D49197001528F0 /* Main.storyboard */,
 				66C54C8526D486CF001528F0 /* Info.plist */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C54C7C26D486CE001528F0 /* ContentView.swift in Sources */,
+				6638034F2799CBC0009022DA /* RowView.swift in Sources */,
 				66C54C7A26D486CE001528F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
